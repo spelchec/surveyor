@@ -1,0 +1,40 @@
+body {
+	background-color: #eeffdd;
+	font-family: Arial;
+}
+
+section {
+	border: 1px solid blue;
+	padding:1em;
+	margin: 1em;
+	height: 90%;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li {
+	margin-bottom: .5em;
+}
+textarea {
+	width: 100%;
+	height: 200px;;
+}
+.text-limit {
+	position: absolute;
+	bottom: 0;
+	right: 1em;
+	font-size: 10px;
+}
+input.next[type=button], input.next[type=submit] {
+	position: absolute;
+	right: 10%;
+	bottom: 10%;
+}
+
+.hide {
+	display:none;
+}

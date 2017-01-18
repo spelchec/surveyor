@@ -1,0 +1,38 @@
+title: Would You Like to Take a Survey?
+description: >
+  This is a sample survey to demonstrate your options,<br />
+  and shows you a document format where it's all written.
+questions:
+  -  question: >
+       What is the meaning of life?
+     type: textarea
+     selectionLimit: 1000
+  -  question: >
+       What things do you like?
+       You can choose multiple things.
+     type: checkbox
+     options:
+       - answer: First Thing
+         value: A
+         checked: true
+       - answer: Second Thing
+         value: B
+         checked: true
+     selectionLimit: 1
+     allowOther: false
+  -  question: >
+       What thing do you like?
+       You can only choose one thing, but you have a write-in option as well.
+     type: radio
+     options:
+       - answer: First Thing
+         value: A
+         checked: true
+       - answer: Second Thing
+         value: B
+         checked: true
+       - answer: Third Thing
+         value: C
+         checked: false
+     selectionLimit: 100
+     allowOther: true
